@@ -32,6 +32,8 @@ def subM(arr):
   return result
 
 def multM(arr):
+  if arr[0] == 0:
+    return 0
   product = 1
   for i in arr:
     if !isnumeric(i):
@@ -42,7 +44,7 @@ def multM(arr):
 
 def divM(arr):
   result = arr[0]
-  if arr[0] == 0
+  if arr[0] == 0:
     return 0
   for i in range(1,len(arr)):
     if !isnumeric(arr[i]):
